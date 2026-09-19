@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-label="界面结构示意">
+  <defs>
+    <linearGradient id="accentG2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a18"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="620" rx="14" fill="#0c0e12"/>
+
+  <rect x="0" y="0" width="1000" height="44" rx="14" fill="#14171d"/>
+  <rect x="0" y="30" width="1000" height="14" fill="#14171d"/>
+  <line x1="0" y1="44" x2="1000" y2="44" stroke="#2b313c" stroke-width="1"/>
+
+  <rect x="16" y="12" width="14" height="14" rx="3" fill="url(#accentG2)"/>
+  <text x="24" y="24" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" font-weight="700" fill="#1a1205">豆</text>
+  <text x="42" y="20" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#d8dee9">拼豆图纸编辑器</text>
+  <text x="42" y="33" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">Perler Pattern Studio · 离线版</text>
+
+  <rect x="0" y="44" width="297" height="576" fill="#14171d"/>
+  <line x1="297" y1="44" x2="297" y2="620" stroke="#2b313c" stroke-width="1"/>
+
+  <g font-family="'Microsoft YaHei',sans-serif">
+    <rect x="14" y="58" width="3" height="11" rx="1.5" fill="#ff7a18"/>
+    <text x="24" y="68" font-size="10" font-weight="700" fill="#ff7a18" letter-spacing="0.8">画布设置</text>
+
+    <text x="14" y="88" font-size="9" fill="#8a93a6">列数 (4~100)</text>
+    <rect x="14" y="94" width="126" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="24" y="110" font-size="11" fill="#d8dee9">50</text>
+    <text x="153" y="88" font-size="9" fill="#8a93a6">行数 (4~100)</text>
+    <rect x="153" y="94" width="130" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="163" y="110" font-size="11" fill="#d8dee9">50</text>
+
+    <g>
+      <rect x="14" y="130" width="86" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="57" y="146" text-anchor="middle" font-size="10" fill="#d8dee9">20²</text>
+      <rect x="105" y="130" width="86" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="148" y="146" text-anchor="middle" font-size="10" fill="#d8dee9">30²</text>
+      <rect x="197" y="130" width="86" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="240" y="146" text-anchor="middle" font-size="10" fill="#d8dee9">40²</text>
+
+      <rect x="14" y="159" width="86" height="24" rx="5" fill="#ff7a18" stroke="#ff7a18" stroke-width="1"/>
+      <text x="57" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1205">50²</text>
+      <rect x="105" y="159" width="86" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="148" y="175" text-anchor="middle" font-size="10" fill="#d8dee9">70²</text>
+      <rect x="197" y="159" width="86" height="24" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="240" y="175" text-anchor="middle" font-size="10" fill="#d8dee9">100²</text>
+    </g>
+
+    <text x="14" y="203" font-size="9" fill="#8a93a6">单元格固定 16px · 当前 50 × 50</text>
+
+    <rect x="14" y="214" width="269" height="28" rx="5" fill="url(#accentG2)"/>
+    <text x="148" y="232" text-anchor="middle" font-size="11" font-weight="700" fill="#1a1205">应用尺寸（清空画布）</text>
+
+    <rect x="14" y="260" width="3" height="11" rx="1.5" fill="#ff7a18"/>
+    <text x="24" y="270" font-size="10" font-weight="700" fill="#ff7a18" letter-spacing="0.8">绘图工具</text>
+
+    <rect x="14" y="282" width="269" height="42" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <rect x="24" y="291" width="24" height="24" rx="5" fill="#000000" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"/>
+    <text x="58" y="299" font-size="9" fill="#8a93a6">当前颜色</text>
+    <text x="58" y="313" font-size="11" font-weight="700" fill="#d8dee9">黑色 #000000</text>
+
+    <rect x="14" y="332" width="85" height="26" rx="5" fill="#ff7a18"/>
+    <text x="56" y="349" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1205">画笔</text>
+    <rect x="106" y="332" width="85" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="148" y="349" text-anchor="middle" font-size="10" fill="#d8dee9">橡皮</text>
+    <rect x="198" y="332" width="85" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="240" y="349" text-anchor="middle" font-size="10" fill="#d8dee9">取色器</text>
+
+    <rect x="14" y="378" width="3" height="11" rx="1.5" fill="#ff7a18"/>
+    <text x="24" y="388" font-size="10" font-weight="700" fill="#ff7a18" letter-spacing="0.8">参考底图 / 转图纸</text>
+    <rect x="14" y="398" width="269" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="148" y="415" text-anchor="middle" font-size="10" fill="#d8dee9">上传本地图片</text>
+
+    <text x="14" y="443" font-size="9" fill="#8a93a6">最大用色</text>
+    <g>
+      <rect x="14" y="450" width="30" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="29" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">2</text>
+      <rect x="48" y="450" width="30" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="63" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">24</text>
+      <rect x="82" y="450" width="30" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="97" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">48</text>
+      <rect x="116" y="450" width="30" height="19" rx="9.5" fill="rgba(255,122,24,.15)" stroke="#ff7a18" stroke-width="1"/>
+      <text x="131" y="463" text-anchor="middle" font-size="9" font-weight="700" fill="#ff9d4d">72</text>
+      <rect x="150" y="450" width="30" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="165" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">96</text>
+      <rect x="184" y="450" width="34" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="201" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">120</text>
+      <rect x="222" y="450" width="34" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="239" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">144</text>
+      <rect x="260" y="450" width="23" height="19" rx="9.5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+      <text x="271" y="463" text-anchor="middle" font-size="9" fill="#8a93a6">221</text>
+    </g>
+
+    <rect x="14" y="484" width="269" height="28" rx="5" fill="url(#accentG2)"/>
+    <text x="148" y="502" text-anchor="middle" font-size="11" font-weight="700" fill="#1a1205">一键转为拼豆图纸</text>
+
+    <rect x="14" y="528" width="3" height="11" rx="1.5" fill="#ff7a18"/>
+    <text x="24" y="538" font-size="10" font-weight="700" fill="#ff7a18" letter-spacing="0.8">工程 / 导出</text>
+    <rect x="14" y="548" width="130" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="79" y="565" text-anchor="middle" font-size="10" fill="#d8dee9">保存工程</text>
+    <rect x="153" y="548" width="130" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="218" y="565" text-anchor="middle" font-size="10" fill="#d8dee9">读取工程</text>
+    <rect x="14" y="580" width="130" height="26" rx="5" fill="url(#accentG2)"/>
+    <text x="79" y="597" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1205">导出PNG</text>
+    <rect x="153" y="580" width="130" height="26" rx="5" fill="#232833" stroke="#353c49" stroke-width="1"/>
+    <text x="218" y="597" text-anchor="middle" font-size="10" fill="#d8dee9">打印预览</text>
+  </g>
+
+  <rect x="297" y="44" width="703" height="576" fill="#0c0e12"/>
+  <ellipse cx="648" cy="300" rx="300" ry="220" fill="#15191f"/>
+
+  <g>
+    <rect x="424" y="118" width="24" height="24" fill="#15181f"/>
+    <rect x="448" y="124" width="400" height="18" fill="#15181f"/>
+    <line x1="448" y1="142" x2="848" y2="142" stroke="#3a4150" stroke-width="1"/>
+    <g font-family="'Segoe UI',sans-serif" font-size="9" fill="#9aa3b2" text-anchor="middle">
+      <text x="460" y="137">1</text>
+      <text x="540" y="137">6</text>
+      <text x="620" y="137">11</text>
+      <text x="700" y="137">16</text>
+      <text x="780" y="137">21</text>
+    </g>
+
+    <rect x="424" y="142" width="24" height="344" fill="#15181f"/>
+    <line x1="448" y1="142" x2="448" y2="486" stroke="#3a4150" stroke-width="1"/>
+    <g font-family="'Segoe UI',sans-serif" font-size="9" fill="#9aa3b2" text-anchor="middle">
+      <text x="436" y="156" transform="rotate(-90 436 156)">1</text>
+      <text x="436" y="236" transform="rotate(-90 436 236)">6</text>
+      <text x="436" y="316" transform="rotate(-90 436 316)">11</text>
+      <text x="436" y="396" transform="rotate(-90 436 396)">16</text>
+      <text x="436" y="476" transform="rotate(-90 436 476)">21</text>
+    </g>
+
+    <g transform="translate(448,142)">
+      <g id="beads"></g>
+    </g>
+
+    <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" transform="translate(448,142)">
+      <line x1="0" y1="0" x2="400" y2="0"/><line x1="0" y1="16" x2="400" y2="16"/>
+      <line x1="0" y1="32" x2="400" y2="32"/><line x1="0" y1="48" x2="400" y2="48"/>
+      <line x1="0" y1="64" x2="400" y2="64"/><line x1="0" y1="80" x2="400" y2="80"/>
+      <line x1="0" y1="96" x2="400" y2="96"/><line x1="0" y1="112" x2="400" y2="112"/>
+      <line x1="0" y1="128" x2="400" y2="128"/><line x1="0" y1="144" x2="400" y2="144"/>
+      <line x1="0" y1="160" x2="400" y2="160"/><line x1="0" y1="176" x2="400" y2="176"/>
+      <line x1="0" y1="192" x2="400" y2="192"/><line x1="0" y1="208" x2="400" y2="208"/>
+      <line x1="0" y1="224" x2="400" y2="224"/><line x1="0" y1="240" x2="400" y2="240"/>
+      <line x1="0" y1="256" x2="400" y2="256"/><line x1="0" y1="272" x2="400" y2="272"/>
+      <line x1="0" y1="288" x2="400" y2="288"/><line x1="0" y1="304" x2="400" y2="304"/>
+      <line x1="0" y1="320" x2="400" y2="320"/><line x1="0" y1="336" x2="400" y2="336"/>
+      <line x1="0" y1="344" x2="400" y2="344"/>
+      <line x1="0" y1="0" x2="0" y2="344"/><line x1="16" y1="0" x2="16" y2="344"/>
+      <line x1="32" y1="0" x2="32" y2="344"/><line x1="48" y1="0" x2="48" y2="344"/>
+      <line x1="64" y1="0" x2="64" y2="344"/><line x1="80" y1="0" x2="80" y2="344"/>
+      <line x1="96" y1="0" x2="96" y2="344"/><line x1="112" y1="0" x2="112" y2="344"/>
+      <line x1="128" y1="0" x2="128" y2="344"/><line x1="144" y1="0" x2="144" y2="344"/>
+      <line x1="160" y1="0" x2="160" y2="344"/><line x1="176" y1="0" x2="176" y2="344"/>
+      <line x1="192" y1="0" x2="192" y2="344"/><line x1="208" y1="0" x2="208" y2="344"/>
+      <line x1="224" y1="0" x2="224" y2="344"/><line x1="240" y1="0" x2="240" y2="344"/>
+      <line x1="256" y1="0" x2="256" y2="344"/><line x1="272" y1="0" x2="272" y2="344"/>
+      <line x1="288" y1="0" x2="288" y2="344"/><line x1="304" y1="0" x2="304" y2="344"/>
+      <line x1="320" y1="0" x2="320" y2="344"/><line x1="336" y1="0" x2="336" y2="344"/>
+      <line x1="352" y1="0" x2="352" y2="344"/><line x1="368" y1="0" x2="368" y2="344"/>
+      <line x1="384" y1="0" x2="384" y2="344"/><line x1="400" y1="0" x2="400" y2="344"/>
+    </g>
+
+    <g stroke="#ffffff" stroke-opacity="0.45" stroke-width="2" transform="translate(448,142)">
+      <line x1="80" y1="0" x2="80" y2="344"/><line x1="160" y1="0" x2="160" y2="344"/>
+      <line x1="240" y1="0" x2="240" y2="344"/><line x1="320" y1="0" x2="320" y2="344"/>
+      <line x1="0" y1="80" x2="400" y2="80"/><line x1="0" y1="160" x2="400" y2="160"/>
+      <line x1="0" y1="240" x2="400" y2="240"/><line x1="0" y1="320" x2="400" y2="320"/>
+    </g>
+  </g>
+
+  <g transform="translate(424, 500)">
+    <rect x="0" y="0" width="448" height="52" rx="8" fill="#14171d" stroke="#2b313c" stroke-width="1"/>
+    <g transform="translate(12, 10)">
+      <circle cx="7" cy="7" r="7" fill="#e8649e"/><text x="20" y="11" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">E4 ×38</text>
+      <circle cx="87" cy="7" r="7" fill="#e6ee31"/><text x="100" y="11" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">B1 ×24</text>
+      <circle cx="167" cy="7" r="7" fill="#41ccff"/><text x="180" y="11" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">C4 ×51</text>
+      <circle cx="247" cy="7" r="7" fill="#fc3d46"/><text x="260" y="11" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">F2 ×17</text>
+      <circle cx="327" cy="7" r="7" fill="#858edd"/><text x="340" y="11" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">D6 ×29</text>
+
+      <circle cx="7" cy="28" r="7" fill="#3ddc84"/><text x="20" y="32" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">B5 ×43</text>
+      <circle cx="87" cy="28" r="7" fill="#ff7a18"/><text x="100" y="32" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">A7 ×12</text>
+      <circle cx="167" cy="28" r="7" fill="#8a93a6"/><text x="180" y="32" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">H3 ×66</text>
+      <circle cx="247" cy="28" r="7" fill="#2f2b2f"/><text x="260" y="32" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">H6 ×412</text>
+      <circle cx="327" cy="28" r="7" fill="#d0ccaa"/><text x="340" y="32" font-family="'Segoe UI',sans-serif" font-size="9" fill="#8a93a6">M5 ×1015</text>
+    </g>
+  </g>
+
+  <g font-family="'Microsoft YaHei',sans-serif">
+    <line x1="297" y1="70" x2="414" y2="70" stroke="#ff7a18" stroke-width="1" stroke-dasharray="4 3"/>
+    <circle cx="414" cy="70" r="3" fill="#ff7a18"/>
+    <rect x="316" y="52" width="86" height="22" rx="4" fill="#1b1f27" stroke="#2b313c" stroke-width="1"/>
+    <text x="359" y="67" text-anchor="middle" font-size="10" fill="#ff9d4d">功能控制面板</text>
+
+    <line x1="690" y1="108" x2="690" y2="96" stroke="#ff7a18" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="628" y="72" width="124" height="22" rx="4" fill="#1b1f27" stroke="#2b313c" stroke-width="1"/>
+    <text x="690" y="87" text-anchor="middle" font-size="10" fill="#ff9d4d">5 格粗线主网格</text>
+
+    <line x1="878" y1="152" x2="920" y2="152" stroke="#ff7a18" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="860" y="184" width="112" height="22" rx="4" fill="#1b1f27" stroke="#2b313c" stroke-width="1"/>
+    <text x="916" y="199" text-anchor="middle" font-size="10" fill="#ff9d4d">双向坐标标尺</text>
+
+    <line x1="700" y1="522" x2="760" y2="556" stroke="#ff7a18" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="762" y="546" width="110" height="22" rx="4" fill="#1b1f27" stroke="#2b313c" stroke-width="1"/>
+    <text x="817" y="561" text-anchor="middle" font-size="10" fill="#ff9d4d">实时用料图例</text>
+  </g>
+</svg>

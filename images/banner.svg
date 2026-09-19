@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="拼豆图纸编辑器">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12151c"/>
+      <stop offset="1" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a18"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <pattern id="beadGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <rect width="26" height="26" fill="none"/>
+      <circle cx="13" cy="13" r="8" fill="#1d2230"/>
+      <circle cx="13" cy="13" r="8" fill="none" stroke="#2a3142" stroke-width="1"/>
+      <circle cx="10" cy="10" r="2.4" fill="#2f3849"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+
+  <rect x="640" y="0" width="560" height="400" fill="url(#beadGrid)" opacity="0.9"/>
+
+  <g opacity="0.95">
+    <rect x="700" y="70" width="26" height="26" fill="#ff7a18"/>
+    <rect x="726" y="70" width="26" height="26" fill="#ffb347"/>
+    <rect x="752" y="70" width="26" height="26" fill="#e6ee31"/>
+    <rect x="778" y="70" width="26" height="26" fill="#3ddc84"/>
+    <rect x="804" y="70" width="26" height="26" fill="#41ccff"/>
+    <rect x="830" y="70" width="26" height="26" fill="#858edd"/>
+    <rect x="856" y="70" width="26" height="26" fill="#e8649e"/>
+    <rect x="882" y="70" width="26" height="26" fill="#fc3d46"/>
+
+    <rect x="700" y="96" width="26" height="26" fill="#ffb347"/>
+    <rect x="726" y="96" width="26" height="26" fill="#e6ee31"/>
+    <rect x="752" y="96" width="26" height="26" fill="#3ddc84"/>
+    <rect x="778" y="96" width="26" height="26" fill="#41ccff"/>
+    <rect x="804" y="96" width="26" height="26" fill="#858edd"/>
+    <rect x="830" y="96" width="26" height="26" fill="#e8649e"/>
+    <rect x="856" y="96" width="26" height="26" fill="#fc3d46"/>
+    <rect x="882" y="96" width="26" height="26" fill="#ff7a18"/>
+
+    <rect x="700" y="122" width="26" height="26" fill="#e6ee31"/>
+    <rect x="726" y="122" width="26" height="26" fill="#3ddc84"/>
+    <rect x="752" y="122" width="26" height="26" fill="#41ccff"/>
+    <rect x="778" y="122" width="26" height="26" fill="#858edd"/>
+    <rect x="804" y="122" width="26" height="26" fill="#e8649e"/>
+    <rect x="830" y="122" width="26" height="26" fill="#fc3d46"/>
+    <rect x="856" y="122" width="26" height="26" fill="#ff7a18"/>
+    <rect x="882" y="122" width="26" height="26" fill="#ffb347"/>
+
+    <rect x="700" y="148" width="26" height="26" fill="#3ddc84"/>
+    <rect x="726" y="148" width="26" height="26" fill="#41ccff"/>
+    <rect x="752" y="148" width="26" height="26" fill="#858edd"/>
+    <rect x="778" y="148" width="26" height="26" fill="#e8649e"/>
+    <rect x="804" y="148" width="26" height="26" fill="#fc3d46"/>
+    <rect x="830" y="148" width="26" height="26" fill="#ff7a18"/>
+    <rect x="856" y="148" width="26" height="26" fill="#ffb347"/>
+    <rect x="882" y="148" width="26" height="26" fill="#e6ee31"/>
+
+    <rect x="700" y="174" width="26" height="26" fill="#41ccff"/>
+    <rect x="726" y="174" width="26" height="26" fill="#858edd"/>
+    <rect x="752" y="174" width="26" height="26" fill="#e8649e"/>
+    <rect x="778" y="174" width="26" height="26" fill="#fc3d46"/>
+    <rect x="804" y="174" width="26" height="26" fill="#ff7a18"/>
+    <rect x="830" y="174" width="26" height="26" fill="#ffb347"/>
+    <rect x="856" y="174" width="26" height="26" fill="#e6ee31"/>
+    <rect x="882" y="174" width="26" height="26" fill="#3ddc84"/>
+
+    <rect x="700" y="200" width="26" height="26" fill="#858edd"/>
+    <rect x="726" y="200" width="26" height="26" fill="#e8649e"/>
+    <rect x="752" y="200" width="26" height="26" fill="#fc3d46"/>
+    <rect x="778" y="200" width="26" height="26" fill="#ff7a18"/>
+    <rect x="804" y="200" width="26" height="26" fill="#ffb347"/>
+    <rect x="830" y="200" width="26" height="26" fill="#e6ee31"/>
+    <rect x="856" y="200" width="26" height="26" fill="#3ddc84"/>
+    <rect x="882" y="200" width="26" height="26" fill="#41ccff"/>
+
+    <rect x="700" y="226" width="26" height="26" fill="#e8649e"/>
+    <rect x="726" y="226" width="26" height="26" fill="#fc3d46"/>
+    <rect x="752" y="226" width="26" height="26" fill="#ff7a18"/>
+    <rect x="778" y="226" width="26" height="26" fill="#ffb347"/>
+    <rect x="804" y="226" width="26" height="26" fill="#e6ee31"/>
+    <rect x="830" y="226" width="26" height="26" fill="#3ddc84"/>
+    <rect x="856" y="226" width="26" height="26" fill="#41ccff"/>
+    <rect x="882" y="226" width="26" height="26" fill="#858edd"/>
+
+    <rect x="700" y="252" width="26" height="26" fill="#fc3d46"/>
+    <rect x="726" y="252" width="26" height="26" fill="#ff7a18"/>
+    <rect x="752" y="252" width="26" height="26" fill="#ffb347"/>
+    <rect x="778" y="252" width="26" height="26" fill="#e6ee31"/>
+    <rect x="804" y="252" width="26" height="26" fill="#3ddc84"/>
+    <rect x="830" y="252" width="26" height="26" fill="#41ccff"/>
+    <rect x="856" y="252" width="26" height="26" fill="#858edd"/>
+    <rect x="882" y="252" width="26" height="26" fill="#e8649e"/>
+  </g>
+
+  <g stroke="#2b313c" stroke-width="1" opacity="0.5">
+    <line x1="960" y1="0" x2="960" y2="400"/>
+    <line x1="1012" y1="0" x2="1012" y2="400"/>
+    <line x1="1064" y1="0" x2="1064" y2="400"/>
+    <line x1="1116" y1="0" x2="1116" y2="400"/>
+    <line x1="1168" y1="0" x2="1168" y2="400"/>
+  </g>
+
+  <g transform="translate(700, 310)">
+    <rect x="0" y="0" width="440" height="42" rx="21" fill="#1b1f27" stroke="#2b313c" stroke-width="1"/>
+    <circle cx="24" cy="21" r="9" fill="url(#accentGrad)"/>
+    <text x="46" y="27" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="15" fill="#8a93a6">纯原生 · 无依赖 · 离线可用 · 双击即开</text>
+  </g>
+
+  <g transform="translate(70, 78)">
+    <rect x="0" y="0" width="34" height="34" rx="8" fill="url(#accentGrad)"/>
+    <text x="17" y="24" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#1a1205">豆</text>
+  </g>
+
+  <text x="70" y="176" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="58" font-weight="700" fill="#ffffff">拼豆图纸编辑器</text>
+
+  <text x="70" y="228" font-family="'Segoe UI',sans-serif" font-size="26" font-weight="400" fill="#ff9d4d" letter-spacing="1">Perler Pattern Studio</text>
+
+  <g transform="translate(70, 262)">
+    <line x1="0" y1="0" x2="120" y2="0" stroke="#ff7a18" stroke-width="4"/>
+  </g>
+
+  <text x="70" y="308" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="17" fill="#8a93a6">上传图片 → 一键转拼豆图纸 → 导出带标尺与用量图例的打印图</text>
+
+  <text x="70" y="336" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="15" fill="#5f6673">MARD 221 色标准色板 · 8 档分装套系 · 8 种烫制质感模拟</text>
+</svg>
